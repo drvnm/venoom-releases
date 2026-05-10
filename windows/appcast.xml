@@ -1,1 +1,11 @@
-init
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+  version="2.0"
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+>
+  <channel>
+    <title>Venoom Updates</title>
+    <description>Venoom Windows updates</description>
+    <language>en</language>
+  </channel>
+</rss>
