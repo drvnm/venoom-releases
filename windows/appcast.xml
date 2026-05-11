@@ -19,8 +19,8 @@
         sparkle:version="1.0.1"
         sparkle:shortVersionString="1.0.1"
         sparkle:os="windows"
-        sparkle:dsaSignature="PASTE_YOUR_SIGNATURE_HERE"
-        length="PASTE_REAL_FILE_LENGTH_HERE"
+        sparkle:dsaSignature="MEUCIQDS76DRcucn4/J+Gp7IBK9Bz9iXhWvEYMd5HRQE+8qoDAIgUmwLxCgBGaq3f/vLVBL056JHFvL813UQNa7392p+XWo="
+        length="62486753"
         type="application/octet-stream"
       />
     </item>
