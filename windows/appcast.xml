@@ -12,15 +12,15 @@
 
     <item>
       <title>Version 1.0.1</title>
-      <description>Initial updater release.</description>
-      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
+      <description>Release 1.0.1</description>
+      <pubDate>Tue, 12 May 2026 02:01:14 +0000</pubDate>
       <enclosure
-        url="https://github.com/drvnm/venoom-releases/releases/download/1.01/VenoomSetup-1.0.1.exe"
+        url="https://github.com/drvnm/venoom-releases/releases/download/v1.0.1/VenoomSetup-1.0.1.exe"
         sparkle:version="1.0.1"
         sparkle:shortVersionString="1.0.1"
         sparkle:os="windows"
-        sparkle:dsaSignature="MEUCIQDS76DRcucn4/J+Gp7IBK9Bz9iXhWvEYMd5HRQE+8qoDAIgUmwLxCgBGaq3f/vLVBL056JHFvL813UQNa7392p+XWo="
-        length="62486753"
+        sparkle:dsaSignature="MEQCIAqcN7CLcu06dcV3d+xHhkXCFmaweY66Du3mORrwogmXAiA8vEtFoAnqjoTgYcWy8B/+UjFvO0ufeuBINur+9mKG5w=="
+        length="40812653"
         type="application/octet-stream"
       />
     </item>
