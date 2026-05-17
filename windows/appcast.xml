@@ -11,16 +11,16 @@
     <language>en</language>
 
     <item>
-      <title>Version 1.0.2</title>
-      <description>Release 1.0.2</description>
-      <pubDate>Sun, 17 May 2026 11:30:32 +0000</pubDate>
+      <title>Version 1.0.2+2</title>
+      <description>Release 1.0.2+2</description>
+      <pubDate>Sun, 17 May 2026 13:30:19 +0000</pubDate>
       <enclosure
-        url="https://github.com/drvnm/venoom-releases/releases/download/v1.0.2/VenoomSetup-1.0.2.exe"
-        sparkle:version="1.0.2"
-        sparkle:shortVersionString="1.0.2"
+        url="https://github.com/drvnm/venoom-releases/releases/download/v1.0.2+2/VenoomSetup-1.0.2+2.exe"
+        sparkle:version="1.0.2+2"
+        sparkle:shortVersionString="1.0.2+2"
         sparkle:os="windows"
-        sparkle:dsaSignature="MEQCICBKA0kBw80AAOTIpf1+FfFwZOAMH9eWDBfrOBmcC0XOAiBhSzlF/XnyYAIN7rMnuF1y63YBRVd5LMmmlQFSQtf3Tg=="
-        length="39902860"
+        sparkle:dsaSignature="MEUCIQDLmqqMdA29WtBmBWwzZ76KySUV2EIQ0KqDUxHQdFNfZgIgaiGG5s5v73HDpa/LINGTaGsqrTmSHdkbDyUqukQ0gtc="
+        length="39904771"
         type="application/octet-stream"
       />
     </item>
