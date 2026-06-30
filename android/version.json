@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.0.6+1",
-  "version": "1.0.6",
+  "latest_version": "1.0.7+1",
+  "version": "1.0.7",
   "build_number": "1",
   "min_supported_version": "1.0.5",
-  "apk_url": "https://github.com/drvnm/venoom-releases/releases/download/v1.0.6+1/venoom-1.0.6+1.apk",
-  "release_notes": "Release 1.0.6+1",
+  "apk_url": "https://github.com/drvnm/venoom-releases/releases/download/v1.0.7+1/venoom-1.0.7+1.apk",
+  "release_notes": "Release 1.0.7+1",
   "force": false
 }

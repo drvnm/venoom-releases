@@ -11,16 +11,16 @@
     <language>en</language>
 
     <item>
-      <title>Version 1.0.6+1</title>
-      <description>Release 1.0.6+1</description>
-      <pubDate>Sun, 28 Jun 2026 15:42:55 +0000</pubDate>
+      <title>Version 1.0.7+1</title>
+      <description>Release 1.0.7+1</description>
+      <pubDate>Tue, 30 Jun 2026 21:15:20 +0000</pubDate>
       <enclosure
-        url="https://github.com/drvnm/venoom-releases/releases/download/v1.0.6+1/VenoomSetup-1.0.6+1.exe"
-        sparkle:version="1.0.6+1"
-        sparkle:shortVersionString="1.0.6+1"
+        url="https://github.com/drvnm/venoom-releases/releases/download/v1.0.7+1/VenoomSetup-1.0.7+1.exe"
+        sparkle:version="1.0.7+1"
+        sparkle:shortVersionString="1.0.7+1"
         sparkle:os="windows"
-        sparkle:dsaSignature="MEYCIQCShf8yABD1DRBwcOcPyXoIH177mw/D7NjlvUGcE0S+zgIhAKnbiUANm4xZp0tXaKa3hZ2Ri5g+k5DrVFIgzdQEZDyQ"
-        length="54409504"
+        sparkle:dsaSignature="MEYCIQCxQt8X7M81Nbfloqmh3gqRabHrp1aQR6rJde2W6mcHqQIhAIJOMauJJZKSkhL1aRwvg+4AWyTHshmO50lWaMIyAX7A"
+        length="54444237"
         type="application/octet-stream"
       />
     </item>
