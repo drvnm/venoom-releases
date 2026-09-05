@@ -13,14 +13,14 @@
     <item>
       <title>Version 1.1.0+1</title>
       <description>Release 1.1.0+1</description>
-      <pubDate>Sat, 05 Sep 2026 13:09:26 +0000</pubDate>
+      <pubDate>Sat, 05 Sep 2026 14:23:29 +0000</pubDate>
       <enclosure
         url="https://github.com/drvnm/venoom-releases/releases/download/v1.1.0+1/VenoomSetup-1.1.0+1.exe"
         sparkle:version="1.1.0+1"
         sparkle:shortVersionString="1.1.0+1"
         sparkle:os="windows"
-        sparkle:dsaSignature="MDwCHHWFpwPLIYBSurk9QtlLgV6pcfdOcbUEIWiOEv4CHGZgWlzSChItmmHWlYT9TmZBVDS2zqwHyzBrH0E="
-        length="56331090"
+        sparkle:dsaSignature="MDwCHEOKBVxf7la6S6AmumF6pdcNlMrftGKhJKLxS4UCHBddMM8joseoIrgueJoPhzK+O5tXNdsS44A4znc="
+        length="71356387"
         type="application/octet-stream"
       />
     </item>
