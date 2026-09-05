@@ -1,70 +1,45 @@
 # Link Matrix to your ATProto identity manually
 
-Venoom can link your Matrix and ATProto identities for you, but doing that requires the ATProto `identity:*` permission. That permission allows changes to your DID document and is broader than what is strictly needed just to add a Matrix account.
+Venoom can link your Matrix account to your ATProto identity for you, but this requires the `identity:*` permission.
 
-You don't have to give Venoom this permission.
+You do not have to give Venoom this permission. If you prefer, you can create the link yourself.
 
-If you manage your ATProto identity yourself, you can create the link manually.
+## 1. Add your Matrix account to your ATProto DID
 
-## 1. Add Matrix to your ATProto DID
-
-Find your Matrix user ID:
+Find your Matrix ID:
 
     @alice:example.com
 
-Convert it to a Matrix URI:
+Add it to your DID document's `alsoKnownAs` as:
 
     matrix:u/alice:example.com
 
-Add that URI to `alsoKnownAs` in your ATProto DID document, while keeping your existing ATProto handle:
+For example:
 
     "alsoKnownAs": [
       "at://alice.example.com",
       "matrix:u/alice:example.com"
     ]
 
-How you publish this change depends on your DID:
+Keep any existing `alsoKnownAs` entries.
 
-- `did:web`: edit and publish your DID document yourself.
-- Self-managed `did:plc`: publish a PLC operation using your rotation key.
-- PDS-managed `did:plc`: use your PDS's identity/PLC tooling to make the change.
-
-The end result should be:
-
-    Your ATProto DID
-           │
-           └── alsoKnownAs
-                 └── matrix:u/alice:example.com
+How you update the DID depends on how your ATProto identity is managed. If your PDS manages your `did:plc`, use its identity/PLC tooling. If you manage your DID yourself, update it through your normal DID management process.
 
 ## 2. Add your ATProto DID to Matrix
 
-The link also needs to point the other way.
+The link needs to exist on the Matrix side as well.
 
-On your Matrix profile, set the Matey/extended-profile field used for your ATProto identity to your DID:
+Add your ATProto DID to the appropriate Matey extended-profile field on your Matrix profile:
 
     did:plc:xxxxxxxxxxxxxxxxxxxxxxxx
 
-This can be done with any Matrix client/tool that supports editing the required extended profile field, or directly through the Matrix Client-Server API.
+You can do this with a Matrix client that supports the Matey/extended-profile field, or directly through the Matrix Client-Server API.
 
-The result is:
+## 3. Done
 
-    Matrix @alice:example.com
-           │
-           └── ATProto DID
-                 └── did:plc:xxxxxxxxxxxxxxxxxxxxxxxx
+Once both sides are set, Venoom can verify the link:
 
-## 3. Verification
+- your ATProto DID lists your Matrix account
+- your Matrix profile lists your ATProto DID
 
-Venoom can now verify the relationship instead of having to trust either side on its own:
-
-    ATProto DID
-        │
-        └── says → matrix:u/alice:example.com
-                         ↑
-                         │
-    Matrix profile ──────┘
-        says → did:plc:xxxxxxxxxxxxxxxxxxxxxxxx
-
-If both sides point to each other, the identities are linked.
-
-Venoom does not need your `identity:*` permission to verify an existing link. That permission is only needed if you want Venoom to make the ATProto DID change for you.
+Venoom does not need `identity:*` to verify this. That permission is only needed if you want Venoom to update your ATProto DID for you.
