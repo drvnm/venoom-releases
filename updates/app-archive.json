@@ -9,11 +9,19 @@
       "channel": "stable",
       "mandatory": false,
       "release": "https://drvnm.github.io/venoom-releases/updates/releases/1.1.0/windows/release.json"
+    },
+    {
+      "version": "1.1.0",
+      "buildNumber": 2,
+      "platform": "windows",
+      "channel": "stable",
+      "mandatory": false,
+      "release": "https://drvnm.github.io/venoom-releases/updates/releases/1.1.0/windows/release.json"
     }
   ],
   "signature": {
     "algorithm": "ed25519",
     "publicKeyId": "release-387b7cf0b26aa4923dbf47ba",
-    "value": "pvWApE+9sojUA6w+liAYg01oC2NhMvK0u5vyw4d75/3syXMTnOQ9ltllcSjJhU6PPz6yZ8661YqT259v84BaBg=="
+    "value": "vPd+KzIsRwPJwpgp4VUFy6y1gz39IGlatPqCFq20CTAYEbEdY/LSKGJU6C4q4jAh6quPcaZlT2YzoHNcHSapCw=="
   }
 }
