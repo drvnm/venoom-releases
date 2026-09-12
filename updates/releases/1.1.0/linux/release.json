@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 3,
+  "packageId": "com.example.venoommobile",
+  "appName": "Venoommobile",
+  "version": "1.1.0",
+  "buildNumber": 7,
+  "platform": "linux",
+  "channel": "stable",
+  "artifact": {
+    "kind": "zip",
+    "url": "https://drvnm.github.io/venoom-releases/updates/releases/1.1.0/linux/Venoommobile-1.1.0-linux.zip",
+    "sha256": "3935d63a10d93703ecf5256237d9f843196969e1f54b67c4291ebc5722197008",
+    "length": 35345096
+  },
+  "install": {
+    "strategy": "wholeDirectoryReplace"
+  },
+  "signature": {
+    "algorithm": "ed25519",
+    "publicKeyId": "release-387b7cf0b26aa4923dbf47ba",
+    "value": "TxjHy3EV0MGHjM2teE0Y7zAImYGtQZkoSJIXAKvaVumg6ekM3N26fHT3Zx0pgVPxlzqyWgS2tDTg+rvDzExmAQ=="
+  },
+  "minimumUpdaterVersion": "2.0.0",
+  "generatedAt": "2026-09-12T13:09:14.035147Z"
+}
