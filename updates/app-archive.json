@@ -4,6 +4,14 @@
   "items": [
     {
       "version": "1.1.0",
+      "buildNumber": 7,
+      "platform": "linux",
+      "channel": "stable",
+      "mandatory": false,
+      "release": "https://drvnm.github.io/venoom-releases/updates/releases/1.1.0/linux/release.json"
+    },
+    {
+      "version": "1.1.0",
       "buildNumber": 1,
       "platform": "windows",
       "channel": "stable",
@@ -46,6 +54,6 @@
   "signature": {
     "algorithm": "ed25519",
     "publicKeyId": "release-387b7cf0b26aa4923dbf47ba",
-    "value": "pkndZJ8xg7TCtc7wLlikt4piHh2W2bFngi+ujOsYWCcHnx06rRhCby/ULtCu0S8NRYiGMuGEtI76G7yiRx+kDw=="
+    "value": "+9DHOTxG41VvgqdS3GH90EtVk9/CtKhVfw2iHlbHocgrpLp1R7dhTEP8GZ8houFBg5x5U8G2Y95477nC4Z8cCg=="
   }
 }
