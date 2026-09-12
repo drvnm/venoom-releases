@@ -1,0 +1,9 @@
+[Flatpak Ref]
+Name=com.example.venoommobile
+Branch=stable
+Title=Venoom
+IsRuntime=false
+SuggestRemoteName=venoom
+Url=https://drvnm.github.io/venoom-releases/flatpak/repo/
+RuntimeRepo=https://flathub.org/repo/flathub.flatpakrepo
+GPGKey=mDMEaqVcwRYJKwYBBAHaRw8BAQdA0zd3RgkwTxm0qRyo7Zw+9NbxGsV3IaD3f2JfSvDHItm0GVZlbm9vbSBGbGF0cGFrIHJlcG9zaXRvcnmIkAQTFgoAOBYhBCHZo/YKAyi0gil84t60IGC5tTQ3BQJqpVzBAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEN60IGC5tTQ3lSsA/R4VSjX0A8uwgzAa2wGrQPoRaIx3arK4MKq92f8l8MFUAQDrCHWJn4/hG5Raze9c/WJ5olOLO39BlrWJT91/RQTZDQ==
