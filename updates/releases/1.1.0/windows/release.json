@@ -3,14 +3,14 @@
   "packageId": "venoommobile",
   "appName": "Venoommobile",
   "version": "1.1.0",
-  "buildNumber": 2,
+  "buildNumber": 5,
   "platform": "windows",
   "channel": "stable",
   "artifact": {
     "kind": "zip",
     "url": "https://drvnm.github.io/venoom-releases/updates/releases/1.1.0/windows/Venoommobile-1.1.0-windows.zip",
-    "sha256": "a1f3fd0f523bade0d6685ff83dcfbf83f0f37a0a70893d1d38614595ae23a328",
-    "length": 57786192
+    "sha256": "ead989704b068d2cacd78a10dc11b9e42809fd8a06dc35bbb1081e0fb4d3c296",
+    "length": 57375085
   },
   "install": {
     "strategy": "wholeDirectoryReplace"
@@ -18,8 +18,8 @@
   "signature": {
     "algorithm": "ed25519",
     "publicKeyId": "release-387b7cf0b26aa4923dbf47ba",
-    "value": "q2uU+gVzMZqirPgENRGBq8SMuSKMJveBCxMRSAK9i+c7xSiQWUScN5BDhnA2WbOB0bMYYCEubBsb3PheekIqDQ=="
+    "value": "hAtkTXkTY63of1SnVHt8e1f3aga6Q+E1L9YHXzHfx5+mWWR8W4JmLQdqIJ8M3Pa+5ys2RSgu+iqor2vUKTwnCg=="
   },
   "minimumUpdaterVersion": "2.0.0",
-  "generatedAt": "2026-09-10T21:33:35.519523Z"
+  "generatedAt": "2026-09-12T11:24:47.531350Z"
 }
